@@ -6,6 +6,7 @@ This is a module that adds views integration for the [Javascript Timer Module]
 countdown clock on the [Broward County Florida Drupal Users Group]
 (http://www.browarddrupal.org).
 
+
 Current Status
 --------------
 

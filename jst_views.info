@@ -1,6 +1,7 @@
 name = JSTimer Views
 description = Adds custom handler for JSTimer in Views. 
 dependencies[] = jstimer
+dependencies[] = views
 package = "Javascript timer"
 core = 6.x
 

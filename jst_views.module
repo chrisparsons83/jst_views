@@ -1,0 +1,25 @@
+<?php
+/**
+ * Implementation of hook_views_api
+ */
+function jst_views_views_api() {
+  return array(
+    'api' => 2
+  );
+}
+
+/**
+ * Implementation of hook_views_handlers
+ */
+function jst_views_views_handlers() {
+  return array(
+    'info' => array(
+      'path' => drupal_get_path('module', 'jst_views'),
+    ),
+    'handlers' => array(
+      'jst_views_handler_field_date' => array(
+        'parent' => 'views_handler_field_date',
+      ),
+    ),
+  );
+}
